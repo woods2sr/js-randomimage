@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>JavaScript Random Image</title>
+   <link rel="stylesheet" href="reset.css">
+   <link rel="stylesheet" href="styles.css">
+   <!-- ⬇ Add the script random-image.js below and include the defer attribute.⬇ -->
+   
+</head>
+
+<body>
+<div class="wrapper">
+
+   <header>
+      <h1>Using JavaScript to Load a Random Image</h1>
+   </header>
+
+   <main>
+      <figure class="random-cat"> 
+         <!-- ⬇ JS will add the source (src) value -->
+         <img src="" id=""> <!-- ⬅ this image has an id -->
+         <figcaption>This image was picked randomly</figcaption>
+      </figure>
+
+      <h2>What is JavaScript?</h2>
+      <p>JavaScript is a programming language that adds interactivity to web sites. It is a <strong>client-side </strong>scripting language, which means that runs in the user's browser and not on the web server.</p>
+
+      <p>JavaScript is both lightweight and dynamic. Unlike many other scripting languages, JS doesn't need to first be run through any form of compiler that interprets our human-readable code into something the browser understands. The browser is able to read the code that we type and interpret it on the fly.</p>
+
+      <p>JavaScript is among the most important programming languages for website owners who want to make their site more interactive, which makes it the most complex of the three web languages of HTML, CSS, and JavaScript. While HTML provides the structure for a website and CSS allows you to control the presentation of a site, JavaScript gives you tools to change the behavior of elements and add interactivity on your pages that can't be done with HTML or CSS.</p>
+
+
+      <h2>How do you add JavaScript to your page?</h2>
+      <p>You add JavaScript to your page using the &lt;script&gt; element. Just like CSS, it can be embedded within the page itself or connected via an external file.</p>
+
+      <section class="methods">
+            <section class="external">
+               <p>The preferred method is to use the <code><strong>src=</strong></code> attribute to point to an external  <code>.js</code> JavaScript file.</p>
+               <code>
+                  &lt;script <strong>src="example.js"</strong>&gt; &lt;/script&gt;
+               </code>
+            </section>
+
+            <section class="embedded">
+               <p>You can also <strong>embed</strong> a script on a page by putting the actual JavaScript inside the script element. </p>
+               <code>
+                  &lt;script&gt;<br>
+                  &nbsp;&nbsp;<i>- JavaScript goes in here<br></i>
+                  &lt;/script&gt;
+               </code>
+            </section>
+         </section>
+
+
+      </main>
+
+      <footer>
+         <h2>Learn More about JavaScript</h2>
+         <section class="more">
+            <a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps" target="_blank">Mozilla:<br>JS First Steps</a>
+            <a href="https://www.w3schools.com/js/" target="_blank">W3Schools:<br>JavaScript Tutorials</a>
+            <a href="http://jsforcats.com/" target="_blank">JavaScript<br>for Cats</a>
+            <a href="https://javascript.info/" target="_blank">The Modern<br> JavaScript Tutorial</a>
+            <a href="https://www.linkedin.com/learning-login/share?account=2133849&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3D3da4%252FoW%252FQsatqyWGi1522g%253D%253D" target="_blank">LinkedIn: JS<br> Essential Training</a>
+         </section>
+      </footer>
+   </div>
+
+</body>
+</html>
