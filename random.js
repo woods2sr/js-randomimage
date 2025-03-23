@@ -1,17 +1,26 @@
 // Create an array of available images. In this example they are in a subdirectory so the path includes the folder name before the file name:
-
+var imageList = [
+   'images/cookie.jpg',
+   'images/demi.jpg',
+   'images/gary.jpg',
+   'images/ivan.jpg',
+   'images/sweetie.jpg',
+   'images/tia.jpg',
+   'images/vlad.jpg'
+];
 
 // Generate a random number based on the number of images in the array:
+var randomizer = Math.floor(Math.random() * imageList.length);
 
 
 // Get the image from the array based on that random number:
-
+var randomPick = imageList[randomizer];
 
 // Go into the HTML and find the element with the id of "randomImage":
-
+var imgElement = document.getElementById("randomImage");
 
 // Add the randomly chosen image's source (src) info to that element:
-
+imgElement.src = randomPick;
 
 
 
